@@ -4,6 +4,26 @@ Debug information about Asus NovaGo TP370QL to get a proper Linux running on it.
 
 Main resources: <https://github.com/aarch64-laptops/build/>
 
+## Default menu
+
+Boot with Vol-up pressed.
+```
+0 Enable Secure Boot
+1 Disable Secure Boot
+2 Boot USB First
+3 UEFI Menu
+4 EC Version
+5 Reboot
+6 Shutdown
+```
+
+`Uefi Menu` only contains:
+
+```
+0 Flash Images
+1 Exit Menu
+```
+
 ## /dev/sdb1
 
 One UEFI bootloader is on /dev/sdb1 (XBL eXtensible BootLoader), called "Boot1 Partition" in [section1.raw.txt](https://github.com/monperrus/Asus-NovaGo-TP370QL/tree/master/uefi//volume-520912/file-9e21fd93-9c72-4c15-8c4b-e77f1db2d792/section0/section1/volume-ee4e5898-3914-4259-9d6e-dc7bd79403cf/file-a1e235de-e825-4591-9623-c43175811826/section1.raw.txt)
