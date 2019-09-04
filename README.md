@@ -13,7 +13,7 @@ $ file /dev/sdb1
 /home/martin/sdb1: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
 ```
 
-Content extracted with [uefi-firmware-parser](https://github.com/theopolis/uefi-firmware-parser), see `uefi-firmware-parser.txt` and folder `uefi`
+Content extracted with [uefi-firmware-parser](https://github.com/theopolis/uefi-firmware-parser), see [uefi-firmware-parser.txt](https://github.com/monperrus/Asus-NovaGo-TP370QL/tree/master/uefi-firmware-parser.txt) and folder `uefi`
 
 ## /dev/sdb2
 
